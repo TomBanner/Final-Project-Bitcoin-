@@ -113,7 +113,7 @@ The other best performing model was prophet, designed by Facebook.
 
 I used the 5 Kbest features and the model achieved a MAPE of 4.34%.
 
-![prop](./images/proph.png)
+![prop](./images/Proph.png)
 
 Part of the Prophet model involves examining the seasonality of the data. We can see here that Bitcoin does particulary well on Tuesdays and at the beginning of the year. 
 
