@@ -9,7 +9,8 @@ I have written some Python code which demonstrates how a blockchain works using 
 
 Bitcoin stores its blockchain through a distributed network of nodes that collectively maintain a copy of the entire blockchain. 
 
-![nd](./images/btcnodes.png)
+
+![js](./images/blc.jpg)
 
 
 My code shows new blocks are added to the blockchain through a process called mining, which in my code involves solving a maths puzzle. 
@@ -17,7 +18,7 @@ By mining the block, wallets are rewarded with IronhackCoins which they can send
 
 ![js](./images/json2.jpg)
 
-You can view my blockchain code and try it out for yourself on my Github repo.
+You can view my blockchain code and try it out for yourself on my Github repo here: https://github.com/TomBanner/Final-Project-Bitcoin-/blob/main/Blockchain.ipynb
 
 
 Now we understand what Bitcoin is and how it works.
@@ -25,7 +26,9 @@ Now we understand what Bitcoin is and how it works.
 
 The next part of my project involved using machine learning to predict the price of Bitcoin.
 
-The first part of this project was exploring the features that i would use in my model. I sourced data from a variety of sources that were linked to Bitcoin. 
+Data Collection & Exploration
+
+The first part of this project was exploring the features that i would use in my model. Using several APIs, I sourced data from a variety of sources that were linked to Bitcoin. 
 
 
 ![ds](./images/btc_ds.jpg)
@@ -88,7 +91,7 @@ I then examined the variance inflation factors of the remaining variable and rem
 
 ......................................................................
 
-Modelling:
+Modelling & Prediction:
 
 I explored several models for this project including Support Vector Regressor, Random Forest, GRU Recurrent Neural Networks, Gradient Boosting Regressor and Prophet. 
 
